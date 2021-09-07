@@ -1,7 +1,7 @@
 const sketch = require('sketch')
 const { DataSupplier } = sketch
 
-const locale = currentLocale()
+const locale = 'IT-it'; //currentLocale()
 
 const dateFormats = {
   dayMonthYear: {day: 'numeric', month: 'numeric', year: 'numeric'},
@@ -145,9 +145,9 @@ function currentYear() {
   return new Date().getFullYear()
 }
 
-function currentLocale() {
-  // NSLocale.currentLocale() only returns the language that is supported by the host application
-  const countryCode = NSLocale.currentLocale().localeIdentifier().split('_')[1]
-  const languageCode = NSLocale.preferredLanguages()[0].split('-')[0]
-  return `${languageCode}-${countryCode}`
-}
+// function currentLocale() {
+//   // NSLocale.currentLocale() only returns the language that is supported by the host application
+//   const countryCode = NSLocale.currentLocale().localeIdentifier().split('_')[1]
+//   const languageCode = NSLocale.preferredLanguages()[0].split('-')[0]
+//   return `${languageCode}-${countryCode}`
+// }

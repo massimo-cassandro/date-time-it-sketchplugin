@@ -1,11 +1,11 @@
 {
   "compatibleVersion": 3,
   "bundleVersion": 1,
-  "name": "Date and Time Data Plugin",
+  "name": "Date and Time IT Data Plugin",
   "icon": "icon.png",
   "suppliesData": true,
-  "identifier": "com.sketchapp.data-date-time",
-  "description": "A data plugin that generates random dates and times",
+  "identifier": "com.sketchapp.data-date-time-it",
+  "description": "A data plugin that generates random dates and times in italian format",
   "commands": [
     {
       "script": "command.js",

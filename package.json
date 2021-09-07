@@ -1,14 +1,14 @@
 {
-  "name": "date-time",
-  "version": "1.1.0",
-  "description": "A data plugin that generates random dates and times",
+  "name": "date-time-it",
+  "version": "1.0.0",
+  "description": "A data plugin that generates random dates and times in italian format",
   "engines": {
     "sketch": ">=3.0"
   },
   "skpm": {
-    "name": "Date & Time",
+    "name": "Date & Time IT",
     "manifest": "src/manifest.json",
-    "main": "date-time.sketchplugin",
+    "main": "date-time-it.sketchplugin",
     "assets": [
       "assets/**/*"
     ]
@@ -20,11 +20,11 @@
     "postinstall": "npm run build && skpm-link"
   },
   "repository": {
-    "url": "https://github.com/BohemianCoding/date-time-sketchplugin"
+    "url": "https://github.com/massimo-cassandro/sketch-date-time-it-plugin"
   },
-  "author": "Sketch",
+  "author": "Massimo Cassandro",
   "license": "MIT",
   "devDependencies": {
-    "@skpm/builder": "^0.7.11"
+    "@skpm/builder": "^0.8.0"
   }
 }
