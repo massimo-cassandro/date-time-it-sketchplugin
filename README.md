@@ -1,4 +1,4 @@
-# Date and Time Data Plugin
+# Italian Date and Time Data Plugin
 
-A fork [date-time](https://github.com/sketch-hq/date-time-sketchplugin) for italian date and times.
+A fork of the [date-time sketch plugin](https://github.com/sketch-hq/date-time-sketchplugin) for italian dates and times.
 
